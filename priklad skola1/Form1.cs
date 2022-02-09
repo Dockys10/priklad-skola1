@@ -21,7 +21,7 @@ namespace priklad_skola1
         {
             int n = Convert.ToInt32(textBox1.Text);
             int fak = 1;
-            for(int i=1;i<=n;i++)
+            for(int i=2;i<=n;i++)
             {
                 fak *= i;
             }
