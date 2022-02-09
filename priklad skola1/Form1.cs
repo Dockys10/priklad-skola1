@@ -27,5 +27,17 @@ namespace priklad_skola1
             }
             label1.Text = "faktorial je " + fak;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int a = Convert.ToInt32(textBox1.Text);
+            int n = Convert.ToInt32(textBox2.Text);
+            int naN = 1;
+            for(int i=0;i<n;i++)
+            {
+                naN *= a;
+            }
+            label2.Text = "a na n je " + naN;
+        }
     }
 }
