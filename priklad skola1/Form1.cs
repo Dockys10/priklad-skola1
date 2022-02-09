@@ -16,5 +16,16 @@ namespace priklad_skola1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int n = Convert.ToInt32(textBox1.Text);
+            int fak = 1;
+            for(int i=1;i<=n;i++)
+            {
+                fak *= i;
+            }
+            label1.Text = "faktorial je " + fak;
+        }
     }
 }
